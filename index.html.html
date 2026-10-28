@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Programação</title>
+    <link rel="stylesheet" href="style.css.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <main class="quiz-container">
+        <header>
+            <span class="etiqueta">DEV QUIZ</span>
+            <h1>Quiz de Programação</h1>
+            <p>Teste seus conhecimentos em tecnologia!</p>
+        </header>
+
+        <section id="quiz">
+            <div class="progresso-info">
+                <span id="numero-pergunta">Pergunta 1 de 10</span>
+                <span id="pontuacao">Pontos: 0</span>
+            </div>
+
+            <div class="barra">
+                <div id="barra-progresso"></div>
+            </div>
+
+            <h2 id="pergunta">Carregando pergunta...</h2>
+
+            <div id="opcoes" class="opcoes"></div>
+
+            <p id="feedback" aria-live="polite"></p>
+
+            <button id="proxima" hidden>Próxima pergunta</button>
+        </section>
+
+        <section id="resultado" hidden>
+            <h2>Quiz finalizado!</h2>
+            <p id="mensagem-final"></p>
+            <p id="pontuacao-final"></p>
+            <button id="reiniciar">Jogar novamente</button>
+        </section>
+    </main>
+
+    <script src="script.js.js"></script>
+</body>
+</html> 
